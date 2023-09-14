@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi Panjang</title>
+    <style>
+    .Panjang-container{
+        background-color: blue;
+        color: brown;
+        width: 500px;
+        padding: 50px;
+        margin: auto;
+        border: 3px solid   gray;
+    }
+    button{
+        background-color: azure;
+        color: black;
+        border: none;
+        min-height: 50px;
+        min-width: 100px;
+        border-radius: 30px;
+    }
+    button:horver{
+        background-color: blue;
+        color: azure;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="Panjang-container">
+        <h1>Persegi Panjang</h1>
+        <p>Panjang</p>
+        <input class="Panjang" type="text">
+        <p>Lembar</p>
+        <input class="lebar" type="text"><br><br>
+        <button onclick="myfunction()" class="luas">Calculate</button>
+    </div>
+    <script src="luas.js"></script>
+</body>
+</html>
